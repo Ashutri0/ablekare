@@ -391,6 +391,7 @@
         padding: 40px;
     }
     #row1 img{
+        width: 100%;
         margin-left: auto;
     }
     #row1 h3{
@@ -421,6 +422,9 @@
     }
     #descript-down>#two{
         width: 50%;
+    }
+    #page8{
+        height: auto;
     }
 }
 
