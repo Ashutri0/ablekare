@@ -236,7 +236,14 @@
         font-size: 20px;
     }
     .info h1{
+        font-size: 29px;
         margin-top: 10px;
+    }
+    .info li{
+        font-size: 22px;
+    }
+    #price{
+        gap: 36px;
     }
     #page4{
         height: auto;
