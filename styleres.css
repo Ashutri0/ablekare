@@ -1,0 +1,411 @@
+@media (max-width:580px){
+    #page1{
+        height: 135%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+    #text{
+        top: 27%;
+    }
+    #text h1{
+        font-size: 25px;
+        line-height: 35px;
+    }
+    #text h1 span{
+        font-size: 25px;
+    }
+    #text p span{
+        font-size: 15px;
+    }
+    #left{
+        align-items: baseline;
+    }
+    #text p{
+        margin: 10px 0;
+        font-size: 15px;
+        width: auto;
+    }
+    #right>img#aa{
+        width: 100%;
+    }
+    #image{
+        gap: 20px;
+    }
+    #content{
+        gap: 25px;
+        font-size: 10px;
+    }
+    #tools{
+        flex-direction: column;
+    }
+    #first{
+        width: 50%;
+        height: 15%;
+        top: 55%;
+        left: 45%;
+    }
+    #second{
+        width: 50%;
+        height: 15%;
+        left: 45%;
+        top: 71%;
+    }
+    #third{
+        width: 50%;
+        height: 15%;
+        left: 45%;
+        top: 87%;
+    }
+    #page2{
+        flex-direction: column;
+        height: auto;
+    }
+    #nav2{
+        display: none;
+    }
+    #nav3{
+        margin-left: 150px
+    }
+    #nav1 img {
+        padding: 20px 25px;
+    }
+    #nav3 .input input{
+        display: none;
+    }
+    #nav3>button{
+        width: 80%;
+        padding: 10px;
+        height: auto;
+    }
+    #contantabt{
+        flex-direction: column;
+        height: auto;
+    }
+    #contantabt #lftabt{
+        width: 100%;
+    }
+    #contantabt #lftabt>p{
+        width: 100%;
+    }
+    #contantabt #rytabt{
+        width: 100%;
+        padding: 20px 0;
+    }
+    #contantabt #rytabt #rytcont {
+        width: 100%;
+    }
+    #contantabt #lftabt>h1{
+        font-size: 25px;
+    }
+    #founder{
+        flex-direction: column;
+        height: auto;
+    }
+    #founder>#lftpic{
+        width: 100%;
+    }
+    #founder>#lftau{
+        width: 100%;
+        padding: 50px 20px;
+    }
+    #founder>#lftau>p{
+        width: 100%;
+    }
+    #mission>#sec-1{
+        flex-direction: column;
+        height: auto;
+        padding: 10px 80px;
+    }
+    .leftmis{
+        width: 100%;
+    }
+    .rytmis{
+        width: 100%;
+    }
+    .leftmis>img{
+        width: 100%;
+    }
+    .rytmis>img{
+        width: 100%;
+    }
+    #mission>#sec-2{
+        flex-direction: column;
+        height: auto;
+        padding: 0px 80px;
+    }
+    #mission>#sec-3{
+        flex-direction: column;
+        height: auto;
+    }
+    .rytmis>img#hon{
+        display: none;
+    }
+    #promt{
+        flex-direction: column;
+        height: auto;
+    }
+    #promt>#promlft{
+        width: 100%;
+    }
+    #promt>#promryt {
+        width: 100%;
+    }
+    #message h1{
+        font-size: 45px;
+        line-height: normal;
+    }
+    #right{
+        height: auto;
+    }
+    #right img{
+        width: 150%;
+        margin-left: -15%;
+    }
+    #page3{
+        height: auto;
+        background-image: none;
+        /* background-size: 80%; */
+    }
+    #up{
+        height: auto;
+    }
+    #up h1{
+        font-size: 25px;
+    }
+    #up h5{
+        margin-top: 5px;
+        margin-left: 0;
+        width: auto;
+        font-size: small;
+    }
+    #down1{
+        flex-direction: column;
+    }
+    #down1 .container{
+        width: auto;
+    }
+    #down{
+        height: auto;
+    }
+    .row{
+        flex-direction: column;
+    }
+    #down2 .container{
+        width: 73%;
+        margin: 3%;
+    }
+    #view{
+        width: 250px;
+        font-size: 8px;
+    }
+    #textarea{
+        height: auto;
+    }
+    #textarea h1{
+        font-size: 25px;
+    }
+    #textarea h5{
+        margin-left: 0;
+        font-size: small;
+        width: 100%;
+    }
+    #doctors{
+        flex-direction: column;
+        height: auto;
+    }
+    #doctors .doclist{
+        width: 100%;
+        height: 50vh;
+        margin-top: 12px;
+    }
+    #depart .depart-button{
+        width: 250px;
+        /* font-size: 8px; */
+    }
+    .depart-button h1{
+        font-size: 20px;
+    }
+    .info h1{
+        margin-top: 10px;
+    }
+    #page4{
+        height: auto;
+    }
+    #page5{
+        height: auto;
+    }
+    #page6{
+        height: auto;
+    }
+    #layer1 h1{
+        font-size: 28px;
+        margin-top: 15px
+    }
+    #layer1 h4{
+        font-size: 15px;
+    }
+    #layer2{
+        flex-direction: column;
+    }
+    #layer2 .one{
+        width: 65%;
+        margin-top: 15px;
+        padding: 10px;
+    }
+    #title h1{
+        font-size: 28px;
+        margin-top: 15px;
+    }
+    #title h4{
+        font-size: 18px;
+    }
+    #cont{
+        flex-direction: column;
+    }
+    #l-cont{
+        width: 100%;
+    }
+    #l-cont h1{
+        width: 90%;
+        font-size: 25px;
+        margin-top: 25px
+    }
+    #l-cont h3{
+        width: 95%;
+        line-height: normal;
+    }
+    #l-cont button{
+        width: 50%;
+        padding: 10px;
+        /* height: 15%; */
+    }
+    #r-cont{
+        margin-top: 30px;
+        width: 90%;
+        margin-left: 30p;
+    }
+    #opinion h2{
+        font-size: 15px;
+    }
+    #review img{
+        top: 8%;
+        width: 20%;
+    }
+    #opinion h3{
+        margin-top: 0;
+        margin-left: auto;
+    }
+    #page7{
+        flex-direction: column;
+        height: auto;
+        margin-top: 50px;
+    }
+    #page7>#left{
+        width: 100%;
+    }
+    #page7>#left>#ring{
+        width: 360px;
+        height: 360px;
+    }
+    #page7>#left>#ring img{
+        width: 70%;
+    }
+    #page7>#right{
+        width: 100%;
+    }
+    #right img{
+        width: 60%;
+        margin-left: auto;
+    }
+    #page7>#right #rightup h2{
+        font-size: 30px;
+    }
+    #page7>#right #rightdown{
+        width: 65%;
+        margin-left: 20%;
+    }
+    #titlef h1{
+        font-size: 28px;
+        /* margin-top: 15px; */
+    }
+    #titlef h2{
+        font-size: 22px;
+    }
+    #titlef{
+        height: auto;
+    }
+    .card{
+        flex-direction: column;
+        height: auto;
+    }
+    .card-container{
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+    #card-button{
+        display: none;
+    }
+    #page9{
+        height: auto;
+        flex-direction: column;
+    }
+    #descript{
+        height: auto;
+    }
+    #descript-up{
+        flex-direction: column;
+    }
+    #descript-up h1{
+        font-size: 25px;
+        line-height: normal;
+    }
+    #descript-center{
+        flex-direction: column;
+    }
+    #descript-up button{
+        font-size: 15px;
+        width: 213px;
+        height: 56px;
+        margin-top: 10px;
+    }
+    #row1{
+        width: 100%;
+        padding: 40px;
+    }
+    #row1 img{
+        margin-left: auto;
+    }
+    #row1 h3{
+        width: 100%;
+        margin-left: auto;
+    }
+    #row2{
+        width: 100%;
+    }
+    #row3{
+        width: 100%;
+    }
+    #row3cl1 h4{
+        margin: auto;
+        font-size: 13px;
+        width: auto;
+    }
+    #row3cl2 h4{
+        margin: auto;
+        font-size: 13px;
+        width: auto;
+    }
+    #descript-down>#one{
+        width: auto;
+    }
+    #descript-down #one h2{
+        font-size: 10px;
+    }
+    #descript-down>#two{
+        width: 50%;
+    }
+}
+
+

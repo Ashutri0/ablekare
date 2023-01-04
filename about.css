@@ -1,0 +1,170 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html, body{
+    width: 100%;
+    height: 100%;
+}
+#contantabt{
+    width: 100%;
+    height: 80%;
+    background-image: url(./assets/map.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 110px 60px;
+    display: flex;
+}
+#contantabt #lftabt{
+    width: 60%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+#contantabt #lftabt>h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #104035;
+}
+#contantabt #lftabt>h1>img{
+    height: 45px;
+}
+#contantabt #lftabt>p{
+    margin-top: 20px;
+    width: 70%;
+    font-size: 28px;
+}
+#contantabt #lftabt>span{
+    width: 10%;
+    margin-top: 15px;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+#contantabt #rytabt{
+    width: 40%;
+    height: 100%;
+    padding: 20px;
+}
+#contantabt #rytabt #rytcont{
+    width: 80%;
+    height: 100%;
+    background-color: #104035;
+    border-radius: 14px;
+    background-image: url(./assets/bgabut.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding: 20px 30px;
+}
+#contantabt #rytabt #rytcont>h1{
+    color: #fff;
+    font-size: 25px;
+}
+ul.terms{
+    color: #fff;
+}
+::marker{
+    color: #50C800;
+}
+ul.terms>li{
+    margin-top: 15px;
+}
+ol.terms__list{
+    list-style-type: none;
+    font-size: 12px;
+}
+#founder{
+    width: 100%;
+    height: 70vh;
+    background-image: url(./assets/image\ 23.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+}
+#founder>#lftpic{
+    width: 40%;
+    height: 100%;
+    overflow: hidden;
+}
+#founder>#lftau{
+    width: 60%;
+    height: 100%;
+    padding: 100px;
+}
+#founder>#lftau>h1{
+    font-weight: 700;
+}
+#founder>#lftau>h4{
+    font-weight: 700;
+}
+#founder>#lftau>p{
+    width: 80%;
+    margin-top: 15px;
+}
+#mission{
+    width: 100%;
+    height: 100vh;
+}
+#mission>h1{
+    text-align: center;
+    font-weight: 700;
+}
+#mission>h5{
+    text-align: center;
+}
+#mission>#sec-1{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    padding: 50px 80px;
+}
+#mission>#sec-2{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    padding: 50px 80px;
+}
+#mission>#sec-3{
+    width: 100%;
+    height: 31%;
+    display: flex;
+    padding: 50px 80px;
+}
+.leftmis{
+    width: 50%;
+    height: 100%;
+    /* background-color: #fff; */
+}
+.rytmis{
+    width: 50%;
+    height: 100%;
+    overflow: hidden;
+    /* background-color: rgb(55, 7, 7); */
+}
+.rytmis>img#hon{
+    width: 40%;
+    margin-left: 10%;
+}
+
+#promt{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    padding: 50px 20px;
+}
+#promt>#promlft{
+    width: 50%;
+    height: 100%;
+    padding: 0 70px;
+}
+#promt>#promlft>h1{
+    color: #50C800;
+}
+#promt>#promryt{
+    width: 50%;
+    height: 100%;
+    padding: 0 70px;
+}
+#promt>#promryt>h1{
+    color: #50C800;
+}
