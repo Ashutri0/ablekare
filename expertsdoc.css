@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,
+body{
+    width: 100%;
+    height: 100%;
+}
+#docscrd{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: calc(100% + 24px);
+    margin-right: -12px;
+    margin-left: -12px;
+    justify-content: center;
+    /* background-color: #000; */
+    padding: 10px;
+}
+.cards{
+    margin: 5px;
+    width: 250px;
+    /* height: 100px; */
+    padding: 12px;
+    background-color: #fff;
+    text-align: center;
+    border: 2px solid #104035;
+    border-radius: 10px;
+}
+.cards>.docdp{
+    position: relative;
+    width: 100px;
+    display: inline-block;
+    height: 100px;
+    background-color: #fafa;
+    border-radius: 50px;
+    
+}
+.cards>.docdp>img{
+    width: 100%;
+}
+.cards>.docdp>a{
+    position: absolute;
+    top: 70px;
+    left: 55px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 600;
+    background-color: #000;
+    padding: 3px;
+    border-radius: 10px;
+    font-size: small;
+}
+.cards>h1{
+    font-size: 20px;
+    font-weight: 600;
+    color: #104035;
+}
+.cards>ul{
+    text-align: left;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.cards>ul>::marker{
+    color: #104035;
+}
+.cards>#btns{
+    width: 100%;
+    padding: 10px 20px;
+    display: flex;
+    align-items: flex-end;
+}
+.cards>#btns>#btn1{
+    width: 50%;
+}
+.cards>#btns>#btn2{
+    width: 50%;
+}
+.cards>#btns2{
+    width: 100%;
+    /* padding: 10px 20px; */
+    display: flex;
+    align-items: flex-end;
+}
+.cards>#btns2>button{
+    margin: 5px;
+    width: 50%;
+    height: 50px;
+    padding: 4px;
+    font-size: 12px;
+    color: #fff;
+    background-color: #388C00;
+    border-radius: 30px;
+}
