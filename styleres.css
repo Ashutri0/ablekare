@@ -425,6 +425,7 @@
     }
     #page8{
         height: auto;
+        margin-block: 20px;
     }
 }
 
